@@ -6,205 +6,128 @@
 <title>SmartFXPro</title>
 
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:Arial;}
-body{background:#f6f7fb;color:#111}
+body{
+  margin:0;
+  font-family:Arial;
+  background:#0f172a;
+  color:white;
+}
 
 /* NAVBAR */
 header{
-display:flex;justify-content:space-between;align-items:center;
-padding:20px 60px;background:#fff;
+  display:flex;
+  justify-content:space-between;
+  padding:20px 40px;
+  background:#020617;
 }
-.logo{font-size:26px;font-weight:bold;color:#7b2ff7;}
-nav a{margin:0 12px;text-decoration:none;color:#333;font-weight:500;}
-.btn{
-padding:10px 20px;border-radius:25px;border:none;cursor:pointer;
-}
-.btn-main{
-background:linear-gradient(90deg,#7b2ff7,#f107a3);color:#fff;
+.logo{
+  color:#22c55e;
+  font-size:24px;
+  font-weight:bold;
 }
 
 /* HERO */
 .hero{
-display:flex;justify-content:space-between;align-items:center;
-padding:80px 60px;
+  text-align:center;
+  padding:100px 20px;
 }
-.hero h1{font-size:52px;}
-.hero p{margin:20px 0;color:#666;}
-.circle{
-width:230px;height:230px;border-radius:50%;
-background:linear-gradient(135deg,#7b2ff7,#f107a3);
+.hero h1{
+  font-size:48px;
+  color:#22c55e;
+}
+.hero p{
+  font-size:20px;
+  margin-top:10px;
+}
+.btn{
+  margin-top:20px;
+  padding:15px 30px;
+  background:#22c55e;
+  border:none;
+  font-size:18px;
+  border-radius:10px;
+  cursor:pointer;
 }
 
-/* TOP BAR */
-.topbar{
-background:#0b1025;color:#fff;
-display:flex;justify-content:space-around;
-padding:15px;font-size:14px;
+/* STATS */
+.stats{
+  display:flex;
+  justify-content:space-around;
+  padding:40px;
+  background:#020617;
+}
+.stat{
+  text-align:center;
+}
+.stat h2{
+  color:#22c55e;
 }
 
-/* WHY */
-.why{display:flex;padding:60px;gap:40px;}
-.left{width:50%;}
+/* SERVICES */
+.services{
+  padding:60px 20px;
+  text-align:center;
+}
 .card{
-background:#fff;padding:20px;border-radius:12px;
-margin-bottom:15px;box-shadow:0 5px 15px rgba(0,0,0,0.05);
-}
-.green{background:#dff5ea;}
-.right{width:50%;}
-.right h2{font-size:36px;margin-bottom:15px;}
-
-/* CFD */
-.cfd{
-background:#0b1025;color:#fff;text-align:center;
-padding:60px;
-}
-.cfd-box{display:flex;justify-content:space-around;margin-top:40px;}
-.cfd-card{
-width:30%;padding:30px;border-radius:15px;background:#1c2340;
-}
-.active{background:linear-gradient(135deg,#7b2ff7,#f107a3);}
-
-/* ACCOUNTS */
-.accounts{text-align:center;padding:60px;}
-.acc-box{display:flex;justify-content:space-around;margin-top:30px;}
-.acc{
-width:30%;padding:30px;border-radius:15px;background:#eee;
-}
-.acc.active{border:2px solid #7b2ff7;}
-
-/* INSIGHTS */
-.insight{display:flex;padding:60px;background:#eee;}
-.insight-left{width:50%;}
-.insight-right{width:50%;}
-.insight-card{
-background:#fff;padding:20px;margin-bottom:15px;border-radius:10px;
+  background:#020617;
+  padding:20px;
+  margin:20px;
+  border-radius:15px;
 }
 
 /* FOOTER */
-footer{background:#fff;padding:50px;}
-.footer{
-display:flex;justify-content:space-between;
-}
-.footer p{color:#666;margin:5px 0;}
-.copy{text-align:center;margin-top:20px;color:#777;}
-
-.disclaimer{
-margin-top:30px;background:#f1f1f1;padding:20px;border-radius:10px;
-font-size:13px;color:#555;
-}
-
-/* RESPONSIVE */
-@media(max-width:900px){
-.hero,.why,.cfd-box,.acc-box,.insight{flex-direction:column;}
-.left,.right,.insight-left,.insight-right{width:100%;}
-.cfd-card,.acc{width:100%;margin-bottom:15px;}
+footer{
+  text-align:center;
+  padding:20px;
+  background:#020617;
 }
 </style>
-</head>
 
+</head>
 <body>
 
 <header>
-<div class="logo">SMARTFXPRO</div>
-<nav>
-<a href="#">Trade</a>
-<a href="#">Accounts</a>
-<a href="#">Company</a>
-<a href="#">Resources</a>
-</nav>
-<button class="btn btn-main">Open Account</button>
+  <div class="logo">SmartFXPro</div>
 </header>
 
 <section class="hero">
-<div>
-<h1>Trade Global Markets with Confidence</h1>
-<p>Access major markets with competitive pricing and fast execution</p>
-<button class="btn btn-main">Start Trading</button>
-<button class="btn">Try Demo</button>
-</div>
-<div class="circle"></div>
+  <h1>Trade Smart. Earn Smart.</h1>
+  <p>Join our funded trading journey</p>
+  <button class="btn" onclick="window.location.href='https://instagram.com/smartfxpro'">Join Now</button>
 </section>
 
-<div class="topbar">
-<div>Multi-Regulated Broker</div>
-<div>Leverage up to 1:400</div>
-<div>Dedicated Manager</div>
-<div>24/5 Support</div>
-</div>
-
-<section class="why">
-<div class="left">
-<div class="card">24/5 Support</div>
-<div class="card green">Secure Funds</div>
-<div class="card">Fast Execution</div>
-</div>
-<div class="right">
-<h2>Why Trade With Us?</h2>
-<p>Built for speed, precision and reliability.</p>
-</div>
+<section class="stats">
+  <div class="stat">
+    <h2>₹25,000+</h2>
+    <p>Daily Profit</p>
+  </div>
+  <div class="stat">
+    <h2>500+</h2>
+    <p>Active Traders</p>
+  </div>
+  <div class="stat">
+    <h2>95%</h2>
+    <p>Win Rate</p>
+  </div>
 </section>
 
-<section class="cfd">
-<h2>CFD Markets You Can Trade</h2>
-<div class="cfd-box">
-<div class="cfd-card">Metals</div>
-<div class="cfd-card active">Commodities</div>
-<div class="cfd-card">Indices</div>
-</div>
-</section>
+<section class="services">
+  <h2>Our Services</h2>
 
-<section class="accounts">
-<h2>Trading Accounts Built Around You</h2>
-<div class="acc-box">
-<div class="acc">Agency Trading</div>
-<div class="acc">Classic Account</div>
-<div class="acc active">Prime Account</div>
-</div>
-</section>
+  <div class="card">
+    <h3>Funded Accounts</h3>
+    <p>Get access to high capital trading accounts</p>
+  </div>
 
-<section class="insight">
-<div class="insight-left">
-<h2>Market Insights & Tools</h2>
-<button class="btn btn-main">Explore Insights</button>
-</div>
+  <div class="card">
+    <h3>Signals</h3>
+    <p>High accuracy forex & gold signals</p>
+  </div>
 
-<div class="insight-right">
-<div class="insight-card">Economic Calendar</div>
-<div class="insight-card">Market Buzz Feed</div>
-</div>
 </section>
 
 <footer>
-<div class="footer">
-<div>
-<h3>SMARTFXPRO</h3>
-<p>support@smartfxpro.com</p>
-</div>
-
-<div>
-<h4>Trading</h4>
-<p>Forex</p>
-<p>Metals</p>
-</div>
-
-<div>
-<h4>Accounts</h4>
-<p>Classic</p>
-<p>Prime</p>
-</div>
-
-<div>
-<h4>Company</h4>
-<p>About</p>
-<p>Contact</p>
-</div>
-</div>
-
-<div class="copy">© 2026 Smartfxpro. All rights reserved.</div>
-
-<div class="disclaimer">
-CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage.
-</div>
+  <p>© 2026 SmartFXPro | All Rights Reserved</p>
 </footer>
 
 </body>
